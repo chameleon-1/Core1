@@ -2,7 +2,9 @@ package task.oop;
 
 public class OOP {
     public static void main(String[] args) {
-
+WarehouseWorker ww = new WarehouseWorker("bob",12, "male", "ystal");
+ww.status();
+ww.say();
     }
 
 // Реализуйте функциональность согласно описанию
